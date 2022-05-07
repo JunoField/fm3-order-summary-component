@@ -4,7 +4,10 @@
   "description": "![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "prebuild": "shx rm -rf dist/*",
+    "build": "parcel build index.html --public-url https://junofield.github.io/fm3-order-summary-component"
   },
   "repository": {
     "type": "git",
@@ -14,5 +17,14 @@
   "license": "ISC",
   "dependencies": {
     "parcel": "^2.5.0"
+  },
+
+  "dependencies": {
+    "parcel": "^2.5.0",
+    "shx": "^0.3.4"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.5.0"
   }
+
 }
