@@ -1,0 +1,43 @@
+//Colours:
+$paleBlue: hsl(225, 100%, 94%);
+$brightBlue: hsl(245, 75%, 52%);
+$veryPaleBlue: hsl(225, 100%, 98%);
+$desatBlue: hsl(224, 23%, 55%);
+$darkBlue: hsl(223, 47%, 23%);
+$white: hsl(0, 0%, 100%);
+
+body{
+    background-color: $veryPaleBlue;
+    font-family: 'Red Hat Display', sans-serif;
+    align-content: center;
+}
+
+#centre-card{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 330px;
+    background-color: $white;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#top-image{
+    width: 100%;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 16pt;
+    color: $darkBlue;
+    margin: 30px auto auto auto;
+}
+
+p{
+    font-weight: 500;
+    color: $desatBlue;
+    margin: 20px 30px auto 30px;
+    line-height: 20pt;
+}
