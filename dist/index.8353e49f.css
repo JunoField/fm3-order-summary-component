@@ -35,12 +35,13 @@ p {
 }
 
 #order-display {
+  width: 85%;
   height: 80px;
   background-color: #f6f7fe;
   border-radius: 10px;
   flex-direction: row;
   align-content: center;
-  margin: 25px 25px auto;
+  margin: 25px auto auto;
   display: flex;
 }
 
@@ -83,7 +84,7 @@ p {
 
 #proceed-button {
   color: #d6e1ff;
-  width: 280px;
+  width: 85%;
   height: 50px;
   background-color: #3829e0;
   border: none;
@@ -107,6 +108,22 @@ p {
 
 #cancel-link:hover {
   color: #1f2f56;
+}
+
+@media only screen and (min-width: 600px) {
+  #centre-card {
+    width: 450px;
+  }
+
+  h1 {
+    margin: 40px auto 16px;
+    font-size: 20pt;
+  }
+
+  p {
+    margin: auto 65px;
+    font-size: 13pt;
+  }
 }
 
 .attribution {

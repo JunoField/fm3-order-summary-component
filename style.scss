@@ -48,7 +48,8 @@ p{
 
 #order-display{
     background-color: $orderDisplayBgnd;
-    margin: 25px 25px auto 25px;
+    margin: 25px auto auto auto;
+    width: 85%;
     border-radius: 10px;
     height: 80px;
     display: flex;
@@ -101,7 +102,7 @@ p{
     font-weight: 900;
     font-size: 11pt;
     border-radius: 10px;
-    width: 280px;
+    width: 85%;
     height: 50px;
     &:hover{
         background-color: $hoverBlue;
@@ -118,6 +119,34 @@ p{
         color: $darkBlue;
     }
 }
+
+@media only screen and (min-width: 600px){
+    #centre-card{
+        width: 450px;
+    }
+
+    h1{
+        font-size: 20pt;
+        margin: 40px auto 16px auto;
+    }
+
+    p{
+        font-size: 13pt;
+        margin: auto 65px auto 65px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
 
 .attribution{
     position: absolute;
