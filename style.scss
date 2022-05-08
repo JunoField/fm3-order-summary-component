@@ -5,6 +5,7 @@ $veryPaleBlue: hsl(225, 100%, 98%);
 $desatBlue: hsl(224, 23%, 55%);
 $darkBlue: hsl(223, 47%, 23%);
 $white: hsl(0, 0%, 100%);
+$orderDisplayBgnd: hsl(230, 75%, 98%);
 
 body{
     background-color: $veryPaleBlue;
@@ -32,12 +33,82 @@ h1{
     font-weight: 900;
     font-size: 16pt;
     color: $darkBlue;
-    margin: 30px auto auto auto;
+    margin: 28px auto auto auto;
 }
 
 p{
     font-weight: 500;
     color: $desatBlue;
-    margin: 20px 30px auto 30px;
-    line-height: 20pt;
+    margin: 12px 30px auto 30px;
+    line-height: 18pt;
+}
+
+#order-display{
+    background-color: $orderDisplayBgnd;
+    margin: 25px 25px auto 25px;
+    border-radius: 10px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+
+    div{ //for stacked text
+        color: green;
+        margin: auto auto auto -15px;
+    }
+
+}
+
+#music-icon{
+    width: 50px;
+    height: 50px;
+    margin: 15px 32px 15px 15px;
+}
+
+#plan-name{
+    margin: auto;
+    color: $darkBlue;
+    font-weight: 900;
+    font-size: 11pt;
+}
+
+#price{
+    margin: -4px auto auto auto;
+    font-weight: 500;
+    font-size: 11pt;
+}
+
+#change-link{
+    color: $brightBlue;
+    text-decoration: underline;
+    font-size: 10pt;
+    font-weight: 700;
+    margin: auto 13pt auto auto;
+}
+
+#proceed-button{
+    margin: 25px auto 25px auto;
+    border: none;
+    background-color: $brightBlue;
+    color: $veryPaleBlue;
+    font-weight: 900;
+    font-size: 11pt;
+    border-radius: 10px;
+    width: 280px;
+    height: 50px;
+}
+
+#cancel-link{
+    display: inline-block;
+    color: $desatBlue;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+.attribution{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-family: 'Arial';
+    font-size: 8pt;
 }

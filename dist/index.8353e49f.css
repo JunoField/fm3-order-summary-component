@@ -22,16 +22,85 @@ body {
 
 h1 {
   color: #1f2f56;
-  margin: 30px auto auto;
+  margin: 28px auto auto;
   font-size: 16pt;
   font-weight: 900;
 }
 
 p {
   color: #7280a7;
-  margin: 20px 30px auto;
+  margin: 12px 30px auto;
   font-weight: 500;
-  line-height: 20pt;
+  line-height: 18pt;
+}
+
+#order-display {
+  height: 80px;
+  background-color: #f6f7fe;
+  border-radius: 10px;
+  flex-direction: row;
+  align-content: center;
+  margin: 25px 25px auto;
+  display: flex;
+}
+
+#order-display div {
+  color: green;
+  margin: auto auto auto -15px;
+}
+
+#music-icon {
+  width: 50px;
+  height: 50px;
+  margin: 15px 32px 15px 15px;
+}
+
+#plan-name {
+  color: #1f2f56;
+  margin: auto;
+  font-size: 11pt;
+  font-weight: 900;
+}
+
+#price {
+  margin: -4px auto auto;
+  font-size: 11pt;
+  font-weight: 500;
+}
+
+#change-link {
+  color: #3829e0;
+  margin: auto 13pt auto auto;
+  font-size: 10pt;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+#proceed-button {
+  color: #f5f7ff;
+  width: 280px;
+  height: 50px;
+  background-color: #3829e0;
+  border: none;
+  border-radius: 10px;
+  margin: 25px auto;
+  font-size: 11pt;
+  font-weight: 900;
+}
+
+#cancel-link {
+  color: #7280a7;
+  padding-bottom: 30px;
+  font-weight: 900;
+  display: inline-block;
+}
+
+.attribution {
+  font-family: Arial;
+  font-size: 8pt;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 /*# sourceMappingURL=index.8353e49f.css.map */
