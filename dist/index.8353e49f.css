@@ -1,5 +1,5 @@
 body {
-  background-color: #f5f7ff;
+  background-color: #d6e1ff;
   align-content: center;
   font-family: Red Hat Display, sans-serif;
 }
@@ -82,7 +82,7 @@ p {
 }
 
 #proceed-button {
-  color: #f5f7ff;
+  color: #d6e1ff;
   width: 280px;
   height: 50px;
   background-color: #3829e0;

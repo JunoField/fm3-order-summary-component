@@ -1,7 +1,7 @@
 //Colours:
 $paleBlue: hsl(225, 100%, 94%);
 $brightBlue: hsl(245, 75%, 52%);
-$veryPaleBlue: hsl(225, 100%, 98%);
+$pageBgnd: hsl(224, 100%, 92%);
 $desatBlue: hsl(224, 23%, 55%);
 $darkBlue: hsl(223, 47%, 23%);
 $white: hsl(0, 0%, 100%);
@@ -11,7 +11,7 @@ $hoverBlue: hsl(245, 83%, 68%);
 
 
 body{
-    background-color: $veryPaleBlue;
+    background-color: $pageBgnd;
     font-family: 'Red Hat Display', sans-serif;
     align-content: center;
 }
@@ -97,7 +97,7 @@ p{
     margin: 25px auto 25px auto;
     border: none;
     background-color: $brightBlue;
-    color: $veryPaleBlue;
+    color: $pageBgnd;
     font-weight: 900;
     font-size: 11pt;
     border-radius: 10px;
