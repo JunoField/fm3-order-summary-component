@@ -6,6 +6,9 @@ $desatBlue: hsl(224, 23%, 55%);
 $darkBlue: hsl(223, 47%, 23%);
 $white: hsl(0, 0%, 100%);
 $orderDisplayBgnd: hsl(230, 75%, 98%);
+$hoverBlue: hsl(245, 83%, 68%);
+
+
 
 body{
     background-color: $veryPaleBlue;
@@ -84,6 +87,10 @@ p{
     font-size: 10pt;
     font-weight: 700;
     margin: auto 13pt auto auto;
+    &:hover{
+        color: $hoverBlue;
+        text-decoration: none;
+    }
 }
 
 #proceed-button{
@@ -96,6 +103,10 @@ p{
     border-radius: 10px;
     width: 280px;
     height: 50px;
+    &:hover{
+        background-color: $hoverBlue;
+        text-decoration: none;
+    }
 }
 
 #cancel-link{
@@ -103,6 +114,9 @@ p{
     color: $desatBlue;
     font-weight: 900;
     padding-bottom: 30px;
+    &:hover{
+        color: $darkBlue;
+    }
 }
 
 .attribution{

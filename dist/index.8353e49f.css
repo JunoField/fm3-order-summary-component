@@ -76,6 +76,11 @@ p {
   text-decoration: underline;
 }
 
+#change-link:hover {
+  color: #756af1;
+  text-decoration: none;
+}
+
 #proceed-button {
   color: #f5f7ff;
   width: 280px;
@@ -88,11 +93,20 @@ p {
   font-weight: 900;
 }
 
+#proceed-button:hover {
+  background-color: #756af1;
+  text-decoration: none;
+}
+
 #cancel-link {
   color: #7280a7;
   padding-bottom: 30px;
   font-weight: 900;
   display: inline-block;
+}
+
+#cancel-link:hover {
+  color: #1f2f56;
 }
 
 .attribution {
