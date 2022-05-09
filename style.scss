@@ -127,13 +127,42 @@ p{
 
     h1{
         font-size: 20pt;
-        margin: 40px auto 16px auto;
+        margin: 40px auto 17px auto;
     }
 
     p{
         font-size: 13pt;
         margin: auto 65px auto 65px;
+        line-height: 25px;
     }
+
+    #order-display{
+        width: 355px;
+        height: 100px;
+
+    }
+
+    #music-icon{
+        margin: 28px 32px 15px 15px;
+    }
+
+    #plan-name{
+        font-size: 12pt;
+    }
+    #price{
+        font-size: 13pt;
+        margin-top: 0px;
+    }
+    
+    #proceed-button{
+        width: 355px;
+    }
+
+    #cancel-link{
+        padding-bottom: 40px;
+    }
+
+    
 
 
 
