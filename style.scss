@@ -133,13 +133,13 @@ p{
     p{
         font-size: 13pt;
         margin: auto 65px auto 65px;
-        line-height: 25px;
+        line-height: 26px;
     }
 
     #order-display{
         width: 355px;
         height: 100px;
-
+        margin-top: 21px;
     }
 
     #music-icon{
@@ -148,18 +148,26 @@ p{
 
     #plan-name{
         font-size: 12pt;
+        margin-top: -9px;
     }
     #price{
         font-size: 13pt;
-        margin-top: 0px;
+        margin-top: 2px;
+    }
+
+    #change-link{
+        font-size: 11pt;
+        margin-right: 24px;
     }
     
     #proceed-button{
         width: 355px;
+        margin-top: 29px;
+        margin-bottom: 31px;
     }
 
     #cancel-link{
-        padding-bottom: 40px;
+        padding-bottom: 48px;
     }
 
     
